@@ -59,11 +59,11 @@ namespace TwentyFourHour.Service.PostServices
                 var entity =
                     ctx
                     .Posts
-                    .Single(e => e.Id == id && e.UserId == _userId);
+                    .Single(e => e.PostId == id && e.UserId == _userId);
                 return
                     new PostDetail
                     {
-                        Id = entity.Id,
+                        Id = entity.PostId,
                         Title = entity.Title,
                         Text = entity.Text,
                         CreatedUtc = entity.CreatedUtc,
@@ -79,7 +79,7 @@ namespace TwentyFourHour.Service.PostServices
                 var entity =
                     ctx
                     .Posts
-                    .Single(e => e.Id == model.Id && e.UserId == _userId);
+                    .Single(e => e.PostId == model.Id && e.UserId == _userId);
 
                 entity.Title = model.Title;
                 entity.Text = model.Text;
@@ -96,7 +96,7 @@ namespace TwentyFourHour.Service.PostServices
                 var entity =
                     ctx
                     .Posts
-                    .Single(e => e.Id == Id && e.UserId == _userId);
+                    .Single(e => e.PostId == Id && e.UserId == _userId);
                 ctx.Posts.Remove(entity);
 
                 return ctx.SaveChanges() == 1;

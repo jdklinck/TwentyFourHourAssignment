@@ -10,7 +10,7 @@ namespace TwentyFourHour.Data
    public class Post
     {
         [Key]
-        public int Id { get; set; }
+        public int PostId { get; set; }
 
         [Required]
         public string Title { get; set; }
@@ -26,7 +26,7 @@ namespace TwentyFourHour.Data
         [Required]
         public DateTimeOffset CreatedUtc { get; set; }
 
-        public DateTimeOffset ModifiedUtc { get; set; }
+        public DateTimeOffset? ModifiedUtc { get; set; }
 
     }
 }

@@ -21,11 +21,11 @@ namespace TwentyFourHourAssignment.Controllers
         }
 
         [HttpGet]
-        [Route("api/Post/{id}")]
-        public IHttpActionResult GetCommentsToPost(int id)
+        [Route("api/Comment/{postId}")]
+        public IHttpActionResult GetCommentsToPost(int postId)
         {
             CommentService commentService = CreateCommentService();
-            var comments = commentService.GetCommentsByPost(id);
+            var comments = commentService.GetCommentsByPost(postId);
             return Ok(comments);
         }
         public IHttpActionResult Post(CommentCreate comment)
