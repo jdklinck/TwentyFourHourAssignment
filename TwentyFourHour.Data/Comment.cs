@@ -11,10 +11,11 @@ namespace TwentyFourHour.Data
    public class Comment
     {
         [Key]
-        public int Id { get; set; }
+        public int CommentId { get; set; }
 
         [Required]
         public string Text { get; set; }
+        public Guid UserId { get; set; }
 
         public virtual List<Reply> Replies { get; set; }
 

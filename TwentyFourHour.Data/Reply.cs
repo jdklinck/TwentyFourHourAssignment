@@ -10,16 +10,13 @@ namespace TwentyFourHour.Data
 {
    public class Reply
     {
-        public int Id { get; set; }
+        public int ReplyId { get; set; }
 
         [Required]
         public string Text { get; set; }
 
-        public virtual List<Reply> Replies { get; set; }
-
-
-        [ForeignKey(nameof(Post))]
-        public int PostId { get; set; }
-        public virtual Post Post { get; set; }
+        [ForeignKey(nameof(Comment))]
+        public int CommentId { get; set; }
+        public virtual Comment Comment { get; set; }
     }
 }

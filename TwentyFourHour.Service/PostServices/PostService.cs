@@ -28,7 +28,7 @@ namespace TwentyFourHour.Service.PostServices
                 };
             using (var ctx = new ApplicationDbContext())
             {
-                ctx.Post.Add(entity);
+                ctx.Posts.Add(entity);
                 return ctx.SaveChanges() == 1;
             }
         }
@@ -39,7 +39,7 @@ namespace TwentyFourHour.Service.PostServices
             {
                 var query =
                     ctx
-                    .Post
+                    .Posts
                     .Where(e => e.UserId == _userId)
                     .Select(
                         e =>
@@ -58,7 +58,7 @@ namespace TwentyFourHour.Service.PostServices
             {
                 var entity =
                     ctx
-                    .Post
+                    .Posts
                     .Single(e => e.Id == id && e.UserId == _userId);
                 return
                     new PostDetail
@@ -78,7 +78,7 @@ namespace TwentyFourHour.Service.PostServices
             {
                 var entity =
                     ctx
-                    .Post
+                    .Posts
                     .Single(e => e.Id == model.Id && e.UserId == _userId);
 
                 entity.Title = model.Title;
@@ -95,9 +95,9 @@ namespace TwentyFourHour.Service.PostServices
             {
                 var entity =
                     ctx
-                    .Post
+                    .Posts
                     .Single(e => e.Id == Id && e.UserId == _userId);
-                ctx.Post.Remove(entity);
+                ctx.Posts.Remove(entity);
 
                 return ctx.SaveChanges() == 1;
             }
