@@ -21,7 +21,7 @@ namespace TwentyFourHour.Service.PostServices
             var entity =
                 new Post()
                 {
-                    UserId = _userId,
+                    Author = _userId,
                     Title = model.Title,
                     Text = model.Text,
                     CreatedUtc = DateTimeOffset.Now
@@ -40,12 +40,15 @@ namespace TwentyFourHour.Service.PostServices
                 var query =
                     ctx
                     .Post
-                    .Where(e => e.UserId == _userId)
+                    .Where(e => e.Author == _userId)
                     .Select(
                         e =>
                         new PostListItem
                         {
                             Title = e.Title,
+                            //Text = entity.Text,
+                            //CreatedUtc = entity.CreatedUtc,
+                            //ModifiedUtc = DateTimeOffset.UtcNow
                         }
                         );
                 return query.ToArray();
@@ -59,7 +62,7 @@ namespace TwentyFourHour.Service.PostServices
                 var entity =
                     ctx
                     .Post
-                    .Single(e => e.Id == id && e.UserId == _userId);
+                    .Single(e => e.Id == id && e.Author == _userId);
                 return
                     new PostDetail
                     {
@@ -79,7 +82,7 @@ namespace TwentyFourHour.Service.PostServices
                 var entity =
                     ctx
                     .Post
-                    .Single(e => e.Id == model.Id && e.UserId == _userId);
+                    .Single(e => e.Id == model.Id && e.Author == _userId);
 
                 entity.Title = model.Title;
                 entity.Text = model.Text;
@@ -96,7 +99,7 @@ namespace TwentyFourHour.Service.PostServices
                 var entity =
                     ctx
                     .Post
-                    .Single(e => e.Id == Id && e.UserId == _userId);
+                    .Single(e => e.Id == Id && e.Author == _userId);
                 ctx.Post.Remove(entity);
 
                 return ctx.SaveChanges() == 1;
