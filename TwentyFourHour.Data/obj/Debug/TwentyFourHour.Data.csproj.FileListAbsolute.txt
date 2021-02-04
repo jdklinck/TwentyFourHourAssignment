@@ -38,3 +38,6 @@ C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Data\bin\Deb
 C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Data\obj\Debug\TwentyFourHour.Data.csproj.CopyComplete
 C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Data\obj\Debug\TwentyFourHour.Data.dll
 C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Data\obj\Debug\TwentyFourHour.Data.pdb
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Data\obj\Debug\TwentyFourHour.Data.Migrations.InitialCreate.resources
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Data\obj\Debug\TwentyFourHour.Data.csproj.GenerateResource.cache
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Data\obj\Debug\TwentyFourHour.Data.Migrations.InitialMigration.resources

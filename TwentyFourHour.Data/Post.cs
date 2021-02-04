@@ -21,7 +21,7 @@ namespace TwentyFourHour.Data
         public virtual List<Comment> Comments { get; set; } = new List<Comment>();
 
         [Required]
-        public Guid UserId { get; set; }
+        public Guid Author { get; set; }
 
         [Required]
         public DateTimeOffset CreatedUtc { get; set; }
