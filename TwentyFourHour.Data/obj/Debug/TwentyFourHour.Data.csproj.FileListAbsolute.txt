@@ -78,3 +78,7 @@ C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Da
 C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Data\obj\Debug\TwentyFourHour.Data.csproj.CopyComplete
 C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Data\obj\Debug\TwentyFourHour.Data.dll
 C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Data\obj\Debug\TwentyFourHour.Data.pdb
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Data\obj\Debug\TwentyFourHour.Data.Migrations.InitialCreate.resources
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Data\obj\Debug\TwentyFourHour.Data.Migrations.InitialMigration.resources
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Data\obj\Debug\TwentyFourHour.Data.csproj.GenerateResource.cache
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Data\obj\Debug\TwentyFourHour.Data.Migrations.NewMigration.resources

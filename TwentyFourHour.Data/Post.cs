@@ -10,7 +10,7 @@ namespace TwentyFourHour.Data
    public class Post
     {
         [Key]
-        public int PostId { get; set; }
+        public int Id { get; set; }
 
         [Required]
         public string Title { get; set; }
@@ -21,12 +21,12 @@ namespace TwentyFourHour.Data
         public virtual List<Comment> Comments { get; set; } = new List<Comment>();
 
         [Required]
-        public Guid UserId { get; set; }
+        public Guid Author { get; set; }
 
         [Required]
         public DateTimeOffset CreatedUtc { get; set; }
 
-        public DateTimeOffset? ModifiedUtc { get; set; }
+        public DateTimeOffset ModifiedUtc { get; set; }
 
     }
 }

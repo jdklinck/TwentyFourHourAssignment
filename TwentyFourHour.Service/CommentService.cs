@@ -22,14 +22,14 @@ namespace TwentyFourHour.Service
             var entity =
                 new Comment()
                 {
-                    UserId = _userId,
+                    Author = _userId,
                     Text = model.Text,
                     PostId = model.PostId
                 };
 
             using (var ctx = new ApplicationDbContext())
             {
-                ctx.Comments.Add(entity);
+                ctx.Comment.Add(entity);
                 return ctx.SaveChanges() == 1;
             }
         }
@@ -39,14 +39,14 @@ namespace TwentyFourHour.Service
             {
                 var query =
                     ctx
-                        .Comments
+                        .Comment
                         .Where(e => e.PostId == postId)
                         .Select(
                             e =>
                                 new CommentListItem
                                 {
                                     Text = e.Text,
-                                    UserId = e.UserId
+                                    UserId = e.Author
                                 });
                 return query.ToArray();
             }

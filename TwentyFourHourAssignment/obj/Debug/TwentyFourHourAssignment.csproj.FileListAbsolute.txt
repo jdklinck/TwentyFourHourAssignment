@@ -218,7 +218,6 @@ C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHourAss
 C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHourAssignment\bin\TwentyFourHour.Models.pdb
 C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHourAssignment\bin\TwentyFourHour.Models.dll.config
 C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHourAssignment\bin\TwentyFourHour.Service.pdb
-C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHourAssignment\bin\TwentyFourHour.Service.dll.config
 C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHourAssignment\bin\Newtonsoft.Json.xml
 C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHourAssignment\bin\System.Net.Http.Formatting.xml
 C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHourAssignment\bin\System.Web.Helpers.xml
@@ -252,3 +251,4 @@ C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHourAss
 C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHourAssignment\obj\Debug\TwentyFourHourAssignment.csproj.CopyComplete
 C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHourAssignment\obj\Debug\TwentyFourHourAssignment.dll
 C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHourAssignment\obj\Debug\TwentyFourHourAssignment.pdb
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHourAssignment\bin\TwentyFourHour.Service.dll.config

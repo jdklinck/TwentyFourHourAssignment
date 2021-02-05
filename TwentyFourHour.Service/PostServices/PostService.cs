@@ -21,14 +21,14 @@ namespace TwentyFourHour.Service.PostServices
             var entity =
                 new Post()
                 {
-                    UserId = _userId,
+                    Author = _userId,
                     Title = model.Title,
                     Text = model.Text,
                     CreatedUtc = DateTimeOffset.Now
                 };
             using (var ctx = new ApplicationDbContext())
             {
-                ctx.Posts.Add(entity);
+                ctx.Post.Add(entity);
                 return ctx.SaveChanges() == 1;
             }
         }
@@ -39,13 +39,16 @@ namespace TwentyFourHour.Service.PostServices
             {
                 var query =
                     ctx
-                    .Posts
-                    .Where(e => e.UserId == _userId)
+                    .Post
+                    .Where(e => e.Author == _userId)
                     .Select(
                         e =>
                         new PostListItem
                         {
                             Title = e.Title,
+                            //Text = entity.Text,
+                            //CreatedUtc = entity.CreatedUtc,
+                            //ModifiedUtc = DateTimeOffset.UtcNow
                         }
                         );
                 return query.ToArray();
@@ -58,12 +61,12 @@ namespace TwentyFourHour.Service.PostServices
             {
                 var entity =
                     ctx
-                    .Posts
-                    .Single(e => e.PostId == id && e.UserId == _userId);
+                    .Post
+                    .Single(e => e.Id == id && e.Author == _userId);
                 return
                     new PostDetail
                     {
-                        Id = entity.PostId,
+                        Id = entity.Id,
                         Title = entity.Title,
                         Text = entity.Text,
                         CreatedUtc = entity.CreatedUtc,
@@ -71,16 +74,14 @@ namespace TwentyFourHour.Service.PostServices
                     };
             }
         }
-
         public bool UpdatePost(PostEdit model)
         {
             using (var ctx = new ApplicationDbContext())
             {
                 var entity =
                     ctx
-                    .Posts
-                    .Single(e => e.PostId == model.Id && e.UserId == _userId);
-
+                    .Post
+                    .Single(e => e.Id == model.Id && e.Author == _userId);
                 entity.Title = model.Title;
                 entity.Text = model.Text;
                 entity.ModifiedUtc = DateTimeOffset.UtcNow;
@@ -95,9 +96,9 @@ namespace TwentyFourHour.Service.PostServices
             {
                 var entity =
                     ctx
-                    .Posts
-                    .Single(e => e.PostId == Id && e.UserId == _userId);
-                ctx.Posts.Remove(entity);
+                    .Post
+                    .Single(e => e.Id == Id && e.Author == _userId);
+                ctx.Post.Remove(entity);
 
                 return ctx.SaveChanges() == 1;
             }

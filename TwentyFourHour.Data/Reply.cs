@@ -10,7 +10,7 @@ namespace TwentyFourHour.Data
 {
    public class Reply
     {
-        public int ReplyId { get; set; }
+        public int Id { get; set; }
 
         [Required]
         public string Text { get; set; }
