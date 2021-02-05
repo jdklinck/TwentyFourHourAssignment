@@ -15,6 +15,7 @@ namespace TwentyFourHour.Data
 
         [Required]
         public string Text { get; set; }
+        public Guid Author { get; set; }
 
         public virtual List<Reply> Replies { get; set; }
 

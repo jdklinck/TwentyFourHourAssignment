@@ -1,0 +1,86 @@
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\TwentyFourHour.Models.dll
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\TwentyFourHour.Models.pdb
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\obj\Debug\TwentyFourHour.Models.csprojAssemblyReference.cache
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\obj\Debug\TwentyFourHour.Models.csproj.CoreCompileInputs.cache
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\obj\Debug\TwentyFourHour.Models.dll
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\obj\Debug\TwentyFourHour.Models.pdb
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\TwentyFourHour.Models.dll.config
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\EntityFramework.dll
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.Owin.dll
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Owin.dll
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Swashbuckle.Core.dll
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\System.Web.Http.dll
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\WebActivatorEx.dll
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\EntityFramework.xml
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.Owin.xml
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\System.Web.Http.xml
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\obj\Debug\TwentyFourHour.Models.csproj.CopyComplete
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\TwentyFourHour.Data.dll
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\TwentyFourHour.Data.pdb
+C:\Users\jessi\source\repos\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\TwentyFourHour.Data.dll.config
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\TwentyFourHour.Models.dll.config
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\TwentyFourHour.Models.dll
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\TwentyFourHour.Models.pdb
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\EntityFramework.dll
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.Owin.dll
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.Owin.Security.dll
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Newtonsoft.Json.dll
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Owin.dll
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Swashbuckle.Core.dll
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\System.Net.Http.Formatting.dll
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\System.Web.Http.dll
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\System.Web.Http.Owin.dll
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\System.Web.Http.WebHost.dll
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\TwentyFourHour.Data.dll
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\WebActivatorEx.dll
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\TwentyFourHour.Data.pdb
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\TwentyFourHour.Data.dll.config
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\EntityFramework.xml
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.Owin.xml
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.Owin.Security.xml
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\Newtonsoft.Json.xml
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\System.Net.Http.Formatting.xml
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\System.Web.Http.xml
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\System.Web.Http.Owin.xml
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\bin\Debug\System.Web.Http.WebHost.xml
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\obj\Debug\TwentyFourHour.Models.csprojAssemblyReference.cache
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\obj\Debug\TwentyFourHour.Models.csproj.CoreCompileInputs.cache
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\obj\Debug\TwentyFourHour.Models.csproj.CopyComplete
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\obj\Debug\TwentyFourHour.Models.dll
+C:\AKR ElevenFiftyProjects\Blue Badge\TwentyFourHourAssignment\TwentyFourHour.Models\obj\Debug\TwentyFourHour.Models.pdb

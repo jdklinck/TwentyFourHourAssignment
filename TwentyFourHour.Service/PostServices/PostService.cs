@@ -74,7 +74,6 @@ namespace TwentyFourHour.Service.PostServices
                     };
             }
         }
-
         public bool UpdatePost(PostEdit model)
         {
             using (var ctx = new ApplicationDbContext())
@@ -83,7 +82,6 @@ namespace TwentyFourHour.Service.PostServices
                     ctx
                     .Post
                     .Single(e => e.Id == model.Id && e.Author == _userId);
-
                 entity.Title = model.Title;
                 entity.Text = model.Text;
                 entity.ModifiedUtc = DateTimeOffset.UtcNow;
