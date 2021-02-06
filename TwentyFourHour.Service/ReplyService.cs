@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TwentyFourHour.Data;
+using TwentyFourHour.Models;
+using Microsoft.AspNet.Identity.EntityFramework;
 
-namespace TwentyFourHour.Service
+namespace TwentyFourHour.Service.ReplyServices
+
 {
-    class ReplyServices 
+    public class ReplyService
     {
         
             private readonly Guid _userId;
@@ -17,40 +21,43 @@ namespace TwentyFourHour.Service
 
             public bool CreateReply(ReplyCreate model)
             {
-                var entity =
-                    new Reply()
-                    {
-                        Author = _userId,
-                        Title = model.Title,
-                        Text = model.Text,
-                        CreatedUtc = DateTimeOffset.Now
+            var entity =
+                new Reply()
+                {
+                    Author = _userId,
+                    Text = model.Text,
+                    CommentId = model.CommentId,
+                    CreatedUtc = DateTimeOffset.Now
                     };
                 using (var ctx = new ApplicationDbContext())
                 {
-                    ctx.Post.Add(entity);
+                ctx.Reply.Add(entity);
                     return ctx.SaveChanges() == 1;
                 }
             }
 
-            public IEnumerable<PostReplyItem> GetReply()
+
+            public IEnumerable<ReplyListItem> GetReply()
             {
-                using (var ctx = new ApplicationDbContext())
-                {
-                    var query =
-                        ctx
-                        .Reply
-                        .Where(e => e.Author == _userId)
-                        .Select(
-                            e =>
-                            new ReplyListItem
-                            {
-                                Title = e.Title,
-                            //Text = entity.Text,
+            using (var ctx = new ApplicationDbContext())
+            {
+                var query =
+                    ctx
+                    .Reply
+                    .Where(e => e.Author == _userId)
+                    .Select(
+                        e =>
+                        new ReplyListItem
+                        {
+
+                            //Title = e.Title,
+                            Text = e.Text,                          
                             //CreatedUtc = entity.CreatedUtc,
                             //ModifiedUtc = DateTimeOffset.UtcNow
+
                         }
-                            );
-                    return query.ToArray();
+                        );
+                return query.ToArray();
                 }
             }
 
@@ -65,15 +72,14 @@ namespace TwentyFourHour.Service
                     return
                         new ReplyDetail
                         {
-                            Id = entity.Id,
-                            Title = entity.Title,
+                            Id = entity.Id,                            
                             Text = entity.Text,
                             CreatedUtc = entity.CreatedUtc,
                             ModifiedUtc = DateTimeOffset.UtcNow
                         };
                 }
             }
-            public bool UpdateReply(PostEdit model)
+            public bool UpdateReply(ReplyEdit model)
             {
                 using (var ctx = new ApplicationDbContext())
                 {
@@ -81,7 +87,6 @@ namespace TwentyFourHour.Service
                         ctx
                         .Reply
                         .Single(e => e.Id == model.Id && e.Author == _userId);
-                    entity.Title = model.Title;
                     entity.Text = model.Text;
                     entity.ModifiedUtc = DateTimeOffset.UtcNow;
 
@@ -89,7 +94,7 @@ namespace TwentyFourHour.Service
                 }
             }
 
-            public bool DeletePost(int Id)
+            public bool DeleteReply(int Id)
             {
                 using (var ctx = new ApplicationDbContext())
                 {

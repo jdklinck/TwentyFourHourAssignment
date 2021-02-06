@@ -1,12 +1,8 @@
 ﻿using Microsoft.AspNet.Identity;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 using TwentyFourHour.Models;
-using TwentyFourHour.Service.PostServices;
+using TwentyFourHour.Service.ReplyServices;
 
 namespace TwentyFourHourAssignment.Controllers
 {
@@ -18,56 +14,56 @@ namespace TwentyFourHourAssignment.Controllers
             private ReplyService CreateReplyService()
             {
                 var userId = Guid.Parse(User.Identity.GetUserId());
-                var postService = new ReplyService(userId);
-                return postService;
+                var replyService = new ReplyService(userId);
+                return replyService;
             }
 
             public IHttpActionResult Get()
             {
                 var replyService = CreateReplyService();
-                var post = replyService.GetPost();
-                return Ok(post);
+                var reply = replyService.GetReply();
+                return Ok(reply);
             }
 
             public IHttpActionResult GetById(int id)
             {
-                var postService = CreateReplyService();
-                var post = postService.GetPostById(id);
-                return Ok(post);
+                var replyService = CreateReplyService();
+                var reply = replyService.GetReplyById(id);
+                return Ok(reply);
             }
-            public IHttpActionResult Reply(PostCreate replyCreate)
+            public IHttpActionResult Reply(ReplyCreate replyCreate)
             {
                 if (!ModelState.IsValid)
                     return BadRequest(ModelState);
 
-                var service = CreatePostService();
+                var service = CreateReplyService();
 
-                if (!service.CreatePost(postCreate))
+                if (!service.CreateReply(replyCreate))
                     return InternalServerError();
 
                 return Ok();
             }
-            public IHttpActionResult Put(PostEdit post)
+            public IHttpActionResult Put(ReplyEdit reply)
             {
                 if (!ModelState.IsValid)
                     return BadRequest(ModelState);
 
-                var service = CreatePostService();
+                var service = CreateReplyService();
 
-                if (!service.UpdatePost(post))
+                if (!service.UpdateReply(reply))
                     return InternalServerError();
 
                 return Ok();
             }
             public IHttpActionResult Delete(int id)
             {
-                var service = CreatePostService();
+                var service = CreateReplyService();
 
-                if (!service.DeletePost(id))
+                if (!service.DeleteReply(id))
                     return InternalServerError();
 
                 return Ok();
             }
-        }
+        
     }
 }

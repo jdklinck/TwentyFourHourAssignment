@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TwentyFourHour.Models
 {
-    class ReplyListItem
+    public class ReplyListItem
     {
         public string Text { get; set; }
         public Guid UserId { get; set; }
