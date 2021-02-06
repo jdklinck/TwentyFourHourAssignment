@@ -18,5 +18,15 @@ namespace TwentyFourHour.Data
         [ForeignKey(nameof(Comment))]
         public int CommentId { get; set; }
         public virtual Comment Comment { get; set; }
+
+        public virtual List<Comment> Comments { get; set; } = new List<Comment>();
+
+        [Required]
+        public Guid Author { get; set; }
+
+        [Required]
+        public DateTimeOffset CreatedUtc { get; set; }
+
+        public DateTimeOffset ModifiedUtc { get; set; }
     }
 }

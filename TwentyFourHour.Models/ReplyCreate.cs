@@ -10,10 +10,10 @@ namespace TwentyFourHour.Models
     public class ReplyCreate
     {
             [Required]
-            public string Title { get; set; }
-
-            [Required]
             public string Text { get; set; }
+       
+            [Required]
+            public int CommentId { get; set; }
         
     }
 }
